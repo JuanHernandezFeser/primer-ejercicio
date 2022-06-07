@@ -1,0 +1,97 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background-color: rgb(255, 255, 255);
+}
+
+/* HEADER */
+
+.header{
+    background-color: rgb(9, 61, 9);
+    position: fixed;
+    width: 100%;
+    max-height: 100px;
+    display: flex;
+    flex-direction: row;
+    color: white;
+    padding: 2rem;
+    min-height: 100px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logotipo-header{
+    text-align: center;
+    padding-left: 15%;
+}
+
+.botones-header{
+    padding-right: 15%;
+}
+
+.ul-header{
+    display: flex;
+    list-style: none;
+}
+
+.nav-enlace{
+    text-decoration: none;
+    color: white;
+}
+
+.nav-item-lista{
+    margin-left: 2rem;
+    font-size: 1.5rem;
+}
+
+/* MAIN - INICIO 1 */
+
+.inicio1{
+    color: black;
+    padding-left: 15%;
+    padding-right: 15%;
+    min-height: 750px;
+    padding-top: 100px;
+}
+
+.inicio1-box{
+    padding: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.inicio1-box-texto{
+    padding: 1.5rem;
+    width: 30%;
+    border-radius: 50px;
+    display: inline-block;
+    box-shadow: 2px 2px 5px;
+}
+
+.inicio1-box-texto-titulo{
+    text-transform: uppercase;
+    margin-bottom: 1rem;
+    font-weight: 800;
+}
+
+.inicio1-texto{
+    text-align: justify;
+    font-size: 1.2rem;
+}
+
+.inicio1-box-imagen{
+    width: 70%;
+    display: block;
+    padding-left: 1rem;
+}
+
+.inicio1-box-imagen-foto{
+    height: 100%;
+    width: 100%;
+    border-radius: 50px;
+}
