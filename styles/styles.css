@@ -263,6 +263,17 @@ body{
 /*MEDIA QUERY*/
 
 @media (max-width: 1023px){
+
+    .header{
+        position: absolute;
+        padding: 0;
+    }
+
+    .logotipo-header img{
+        width: 3rem;
+        height: 3rem;
+    }
+
     .inicio1{
         background-color: blue;
         flex-direction: column;
@@ -281,6 +292,9 @@ body{
     .inicio1-box-texto{
         width: 100%;
         margin-bottom: 1rem;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
     }
 
     .inicio1-box-imagen{
@@ -308,6 +322,16 @@ body{
     .inicio2-box{
         width: 100%;
         padding-top: 0;
+    }
+
+    .inicio2-box-texto{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .inicio2-btn-reserva{
+        margin-left: 0;
     }
 
     .inicio2-box-imagenes{
@@ -339,6 +363,54 @@ body{
 
     .inicio3-box-mapa{
         width: 100%;
+        margin-bottom: 1rem;
+    }
+
+    .footer{
+        padding: 0;
+    }
+
+    .logotipo-footer img{
+        height: 3rem;
+        width: 3rem;
+    }
+}
+
+@media (max-width: 600px){
+
+    .header{
+        display: flex;
+        flex-direction: column;
+        max-height: 150px;
+        padding-bottom: 1rem;
+        padding-top: 1rem;
+    }
+
+    .logotipo-header{
+        padding-left: 0%;
+    }
+
+
+    .botones-header{
+        padding-right: 0;
+        gap: 0;
+    }
+
+    .inicio1{
+        padding-top: 6rem;
+    }
+
+    .inicio2-box{
+        flex-direction: column;
+    }
+
+    .inicio2-box-imagenes{
+        width: 100%;
+    }
+
+    .inicio2-box-texto{
+        width: 100%;
+        margin-top: 1rem;
         margin-bottom: 1rem;
     }
 }
