@@ -5,14 +5,14 @@
 }
 
 body{
-    background-color: rgb(201, 201, 201);
     font-family: 'Raleway', arial, sans-serif;
+    background-color: #ffffff;
 }
 
 /* HEADER */
 
 .header{
-    background-color:rgba(102, 29, 29, 0.9);
+    background-color: #002f49d0;
     position:fixed;
     width: 100%;
     max-height: 100px;
@@ -24,6 +24,10 @@ body{
     align-items: center;
     justify-content: space-between;
     z-index:1;
+}
+
+.header a:hover{
+    color: inherit;
 }
 
 .logotipo-header{
@@ -56,11 +60,10 @@ body{
     color: white;
     padding: 1rem;
     transition: all 0.2s linear;
-    border-radius: 10%;
 }
 
 .nav-enlace:hover{
-    background-color: rgb(88, 86, 86);
+    background-color: #fcc049b4;
 }
 
 .nav-item-lista{
@@ -71,7 +74,6 @@ body{
 /* MAIN - INICIO 1 */
 
 .inicio1{
-    background-color: rgb(201, 201, 201);
     color: black;
     padding-top: 100px;
 }
@@ -118,7 +120,6 @@ body{
 }
 
 .inicio2{
-    background-color: rgb(201, 201, 201);
     color: black;
 }
 
@@ -157,8 +158,7 @@ body{
 
 .inicio2-btn-reserva{
     margin-top: 2rem;
-    background: rgb(46,1,1);
-    background: linear-gradient(180deg, rgba(46,1,1,1) 0%, rgba(71,0,0,1) 50%, rgba(110,0,0,1) 100%);
+    background-color: #d62828;
     display: inline-block;
     color: white;
     padding: 2rem;
@@ -175,14 +175,11 @@ body{
 }
 
 .inicio2-btn-reserva:hover{
-    background: rgb(46,1,1);
-    background: linear-gradient(180deg, rgba(66,1,1,1) 0%, rgba(91,0,0,1) 50%, rgba(130,0,0,1) 100%);
     width: 40%;
     font-size: 1.3rem;
 }
 
 .inicio3{
-    background-color: rgb(201, 201, 201);
     color: black;
     min-height: 530px;
 }
@@ -195,9 +192,21 @@ body{
     align-items: center;
 }
 
+.carousel-inner{
+    max-height: 750px;
+    padding: 1.5rem;
+    margin-bottom: 1.5rem;
+}
+
+.inicio3-box-mapa{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
 .inicio3-textos{
-    background-color: rgb(201, 201, 201);
-    margin-right: 2rem;
+    margin-right: 1rem;
     padding: 1rem;
     display: inline-block;
     margin-left: 1rem;
@@ -221,7 +230,7 @@ body{
     min-height: 100px;
     align-items: center;
     justify-content: space-around;
-    background-color: rgb(185, 185, 185);
+    background-color: rgb(211, 211, 211);
 }
 
 .logotipo-footer{
@@ -254,6 +263,7 @@ body{
         width: 3rem;
         height: 3rem;
     }
+
 
     .inicio1{
         flex-direction: column;
