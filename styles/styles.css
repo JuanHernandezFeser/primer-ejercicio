@@ -235,6 +235,28 @@ body{
     padding-top: 100px;
 }
 
+.row{
+    padding-top: 1rem;
+}
+
+.row3{
+    padding-bottom: 1rem;
+}
+
+.servicios-texto{
+    padding-top: 1rem;
+    display: flex;
+    justify-content: center;
+}
+
+.servicios-texto h1{
+    font-size: 70px;
+    font-weight: 600;
+}
+
+.card{
+    min-height: 395px;
+}
 /* FOOTER */
 
 .footer{
